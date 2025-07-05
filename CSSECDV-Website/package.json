@@ -1,0 +1,45 @@
+{
+  "name": "cssecdv-website",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CSSECDV Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richjpex/CSSECDV-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richjpex/CSSECDV-Website/issues"
+  },
+  "homepage": "https://github.com/richjpex/CSSECDV-Website#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.7",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "file-type": "^20.0.1",
+    "html-entities": "^2.5.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
+    "sanitize-html": "^2.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

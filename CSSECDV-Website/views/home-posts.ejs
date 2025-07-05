@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Posts</title>
+
+    <style>
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #1F2937;
+            border-radius: 8px;
+            min-width: 120px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+            overflow: hidden;
+        }
+
+        .dropdown-menu a,
+        .dropdown-menu button {
+            display: block;
+            padding: 8px 12px;
+            color: white;
+            text-decoration: none;
+            width: 100%;
+            text-align: left;
+            border-radius: 8px;
+        }
+
+        .dropdown-menu a:hover,
+        .dropdown-menu button:hover {
+            background-color: #374151;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background: #1F2937;
+            padding: 20px;
+            border-radius: 12px;
+            width: 700px;
+            /* Increased width */
+            max-width: 90%;
+            min-height: 500px;
+            /* Increased height */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        textarea#edit-content {
+            height: 300px;
+            /* Increased height */
+            resize: vertical;
+            /* Allows resizing if needed */
+        }
+
+        #confirmEditModal .modal-content {
+            background: #1F2937;
+            padding: 20px;
+            border-radius: 12px;
+            width: 700px;
+            /* Match edit modal width */
+            max-width: 90%;
+            min-height: 500px;
+            /* Match edit modal height */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* Center content */
+            align-items: center;
+            /* Center content */
+            text-align: center;
+        }
+
+        #confirmDeleteModal .modal-content {
+            background: #1F2937;
+            padding: 20px;
+            border-radius: 12px;
+            width: 700px;
+            /* Match edit modal width */
+            max-width: 90%;
+            min-height: 500px;
+            /* Match edit modal height */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* Center content */
+            align-items: center;
+            /* Center content */
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        let cachedToken = null;
+        let tokenExpiry = 0;
+        let currentSlug = null;
+
+        async function loadSignedImage(slug) {
+            const now = Math.floor(Date.now() / 1000);
+
+            if (cachedToken && now < tokenExpiry) {
+                window.open(cachedToken, "_blank");
+                return;
+            }
+
+            const response = await fetch(`/posts/${slug}/signed-url`);
+            const data = await response.json();
+
+            if (data.url && data.expiry) {
+                cachedToken = data.url;
+                tokenExpiry = data.expiry;
+                window.open(data.url, "_blank");
+            }
+        }
+
+        async function setSignedImageSrc(slug, imgElement) {
+            const now = Math.floor(Date.now() / 1000);
+            let tokenData = JSON.parse(localStorage.getItem('signedToken'));
+
+            if (tokenData && tokenData.expiry > now && tokenData.slug === slug) {
+                imgElement.src = tokenData.url;
+            } else {
+                const response = await fetch(`/posts/${slug}/signed-url`);
+                const data = await response.json();
+                if (data.url && data.expiry) {
+                    localStorage.setItem('signedToken', JSON.stringify({ url: data.url, expiry: data.expiry, slug: slug }));
+                    imgElement.src = data.url;
+                }
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll("img[id^='post-image-']").forEach(img => {
+                const slug = img.getAttribute("data-slug");
+                setSignedImageSrc(slug, img);
+            });
+        });
+
+        function closeEditModal() {
+            document.getElementById("editModal").style.display = "none";
+
+            const editImageInput = document.getElementById("edit-image");
+            const uploadImageInput = document.getElementById("upload-image");
+            const removeImageCheckbox = document.getElementById("remove-image");
+            const cancelImageButton = document.querySelector(".mt-2.bg-red-500");
+
+            if (editImageInput) {
+                editImageInput.value = "";
+                editImageInput.style.display = "block";
+            }
+            if (uploadImageInput) {
+                uploadImageInput.value = "";
+            }
+            if (cancelImageButton) {
+                cancelImageButton.style.display = "none";
+            }
+            if (removeImageCheckbox) {
+                removeImageCheckbox.checked = false;
+                removeImageCheckbox.parentElement.style.display = "block";
+                removeImageCheckbox.disabled = false;
+            }
+
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                menu.style.display = "none";
+            });
+        }
+
+
+        function openConfirmEditModal() {
+            document.getElementById("confirmEditModal").style.display = "flex";
+        }
+
+        function closeConfirmEditModal() {
+            document.getElementById("confirmEditModal").style.display = "none";
+        }
+
+        function openConfirmDeleteModal(slug) {
+            currentSlug = slug;
+            document.getElementById("confirmDeleteModal").style.display = "flex";
+        }
+
+        function closeConfirmDeleteModal() {
+            document.getElementById("confirmDeleteModal").style.display = "none";
+        }
+
+        function confirmSaveEdit() {
+            closeConfirmEditModal();
+            saveEdit();
+        }
+
+        function toggleDropdown(postId) {
+            const menu = document.getElementById(`dropdown-${postId}`);
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+
+
+        function openEditModal(id, slug, title, content, comment_limit) {
+            currentSlug = slug;
+            document.getElementById("edit-title").value = title;
+            document.getElementById("edit-content").value = content;
+            const imageExists = document.getElementById("post-image-" + id) !== null;
+            console.log(imageExists ? "There is an image." : "There is no image.");
+            document.getElementById("upload-image").style.display = imageExists ? "none" : "block";
+            document.getElementById("edit-image-btn").style.display = imageExists ? "block" : "none";
+            document.getElementById("image-options").classList.add("hidden"); // Ensure dropdown is hidden initially
+            document.getElementById("add-image-container").style.display = imageExists ? "none" : "block";
+            document.getElementById("editModal").style.display = "flex";
+
+            const commentLimitInput = document.getElementById("edit-comment-limit");
+            commentLimitInput.value = comment_limit !== null ? comment_limit : "";
+        }
+
+        function toggleImageOptions() {
+            const options = document.getElementById("image-options");
+            options.classList.toggle("hidden");
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const imageInput = document.getElementById("edit-image");
+            const removeImageCheckbox = document.getElementById("remove-image");
+
+            // Create a Cancel Image button dynamically
+            const cancelImageButton = document.createElement("button");
+            cancelImageButton.textContent = "Cancel Image";
+            cancelImageButton.className = "mt-2 px-4 py-2 bg-red-500 text-white rounded hidden";
+            cancelImageButton.addEventListener("click", function () {
+                imageInput.value = ""; // Clear uploaded file
+                cancelImageButton.style.display = "none"; // Hide cancel button
+                imageInput.style.display = "block"; // Show file input
+
+                if (removeImageCheckbox) {
+                    removeImageCheckbox.checked = false; // Uncheck remove image
+                    removeImageCheckbox.parentElement.style.display = "block"; // Show remove image checkbox
+                    removeImageCheckbox.disabled = false; // Enable checkbox again
+                }
+            });
+
+            if (imageInput) {
+                imageInput.parentElement.appendChild(cancelImageButton);
+
+                imageInput.addEventListener("change", function () {
+                    if (imageInput.files.length > 0) {
+                        if (removeImageCheckbox) {
+                            removeImageCheckbox.parentElement.style.display = "none"; // Hide remove checkbox
+                            removeImageCheckbox.checked = false; // Ensure checkbox is unchecked
+                        }
+                        cancelImageButton.style.display = "block"; // Show cancel button
+                    } else {
+                        if (removeImageCheckbox) {
+                            removeImageCheckbox.parentElement.style.display = "block"; // Show remove checkbox
+                        }
+                        cancelImageButton.style.display = "none"; // Hide cancel button
+                    }
+                });
+
+                if (removeImageCheckbox) {
+                    removeImageCheckbox.addEventListener("change", function () {
+                        if (removeImageCheckbox.checked) {
+                            imageInput.style.display = "none"; // Hide file input
+                            cancelImageButton.style.display = "none"; // Hide cancel button
+                        } else {
+                            imageInput.style.display = "block"; // Show file input
+                        }
+                    });
+                }
+            }
+        });
+
+
+        function handleRemoveImage() {
+            const removeCheckbox = document.getElementById("remove-image");
+            const imageInput = document.getElementById("edit-image");
+
+            if (removeCheckbox.checked) {
+                imageInput.disabled = true; // Disable upload if removing image
+                imageInput.value = ""; // Clear selected file
+            } else {
+                imageInput.disabled = false;
+            }
+        }
+
+        function handleImageUpload() {
+            const removeCheckbox = document.getElementById("remove-image");
+            const imageInput = document.getElementById("edit-image");
+
+            if (imageInput.files.length > 0) {
+                removeCheckbox.checked = false; // Uncheck remove image
+                removeCheckbox.disabled = true; // Disable the checkbox
+            } else {
+                removeCheckbox.disabled = false; // Enable checkbox if no file is uploaded
+            }
+        }
+
+
+        async function saveEdit() {
+            closeConfirmEditModal(); // Close the modal before proceeding
+
+            const title = document.getElementById("edit-title").value;
+            const content = document.getElementById("edit-content").value;
+            const commentLimit = document.getElementById("edit-comment-limit").value;
+            const editImageInput = document.getElementById("edit-image"); // For replacing existing images
+            const uploadImageInput = document.getElementById("upload-image"); // For new posts with no image
+            const removeImageCheckbox = document.getElementById("remove-image");
+
+            const formData = new FormData();
+            formData.append("title", title);
+            formData.append("content", content);
+
+            if (commentLimit.trim() !== "") { 
+                formData.append("commentLimit", commentLimit); 
+            } 
+            
+            if (removeImageCheckbox && removeImageCheckbox.checked) {
+                formData.append("removeImage", "true");
+            } else if (editImageInput.files.length > 0) {
+                formData.append("image", editImageInput.files[0]);
+            } else if (uploadImageInput.files.length > 0) {
+                formData.append("image", uploadImageInput.files[0]);
+            }  
+
+
+            try {
+                const response = await fetch(`/posts/${currentSlug}/edit`, {
+                    method: "POST",
+                    body: formData,
+                });
+
+            if (response.ok) {
+
+                alert("Post updated successfully");
+                location.reload(); 
+    } else {
+        const result = await response.json().catch(() => null); 
+        if (result) {
+            alert(result?.message || "Failed to create post."); 
+        } else {
+            alert("Failed to update post.");
+        }
+    }
+} catch (error) {
+    console.error("Error submitting post.");
+
+}
+};
+            
+        async function saveDelete() {
+            closeConfirmDeleteModal();
+
+            try {
+        const response = await fetch(`/posts/${currentSlug}/delete`, {
+            method: "POST",
+        });
+
+        if (response.ok) {
+            window.location.href = "/home-posts";
+        } else {
+            const result = await response.json().catch(() => null);
+            alert(result?.message || "Failed to delete post.");
+        }
+    } catch (error) {
+        console.error("Error deleting post.");
+   
+    }
+        }
+
+    </script>
+</head>
+
+<body class="bg-gray-900">
+    <% if (user && user.role === 'admin') { %>
+        <%- include('partials/navbar-admin-panel', { page: 'home-posts' }) %>
+      <% } else if (user && isLoggedOn) { %>
+        <%- include('partials/navbar-logged-on', { page: 'home-posts' }) %>
+      <% } else { %>
+        <%- include('partials/navbar', { page: 'home-posts' }) %>
+      <% } %>
+        <section class="bg-gray-900">
+            <div class="container mx-auto mt-10">
+                <h1 class="text-3xl font-bold text-white mb-6">Latest Posts</h1>
+
+                <% posts.forEach(post=> { %>
+
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-md mb-6 relative">
+                        <div class="flex justify-between items-center">
+                            <h2 class="text-xl font-semibold">
+                                <a href="/posts/<%= post.slug %>" class="text-white hover:underline">
+                                    <%= post.title %>
+                                </a>
+                            </h2>
+
+                            <% if (user && user.username===post.username) { %>
+                                <div class="relative">
+                                    <button class="menu-btn text-white text-2xl focus:outline-none"
+                                        onclick="toggleDropdown('<%= post.id %>')">
+                                        &#x22EE;
+                                    </button>
+                                    <div id="dropdown-<%= post.id %>"
+                                        class="dropdown-menu absolute top-8 right-2 bg-gray-800 text-white rounded-lg shadow-lg">
+                                        <button
+                                            onclick="openEditModal('<%= post.id %>', '<%= post.slug %>', '<%= post.title %>', `<%= post.content %>`, `<%= post.comment_limit %>`)">
+                                            Edit
+                                        </button>
+
+
+
+
+                                        <button onclick="openConfirmDeleteModal('<%= post.slug %>')"
+                                            class="block w-full text-left px-4 py-2 text-red-500 hover:bg-red-700 rounded-lg">Delete</button>
+                                    </div>
+                                </div>
+                                <% } %>
+                        </div>
+
+                        <p class="text-gray-400">
+                            By
+                            <a href="/profile/<%= post.username %>" class="text-white font-bold hover:no-underline">
+                                <%= post.username %>
+                            </a>
+                            | <%= new Date(post.created_at).toLocaleString() %>
+                                <% if (post.is_edited) { %>
+                                    (Edited)
+                                    <% } %>
+                        </p>
+
+                        <p class="mt-2 text-gray-300">
+                            <%= post.content %>
+                        </p>
+
+                        <% if (post.image) { %>
+                            <img id="post-image-<%= post.id %>" alt="Post Image" class="mt-4 rounded-lg w-48 h-auto"
+                                data-slug="<%= post.slug %>"
+                                oncontextmenu="loadSignedImage('<%= post.slug %>'); return false;">
+                            <% } %>
+
+
+
+
+                    </div>
+                    <% }); %>
+            </div>
+        </section>
+
+        <div id="editModal" class="modal fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center">
+            <div class="modal-content bg-gray-800 p-6 rounded-lg shadow-lg w-96">
+                <h2 class="text-xl text-white font-semibold">Edit Post</h2>
+                <input name="title" type="text" id="edit-title" class="w-full p-2 mt-2 rounded bg-gray-700 text-white"
+                    placeholder="Title">
+                <textarea name="content" id="edit-content" class="w-full p-2 mt-2 rounded bg-gray-700 text-white"
+                    placeholder="Content"></textarea>
+                    <div class="mt-2">
+                        <label for="edit-comment-limit" class="text-white">Comment Limit (Leave blank for no limit)</label>
+                        <input name="commentLimit" type="text" id="edit-comment-limit" 
+                            class="w-full p-2 mt-1 bg-gray-700 text-white rounded" 
+                            placeholder="Enter max number of comments">
+                    </div>
+
+                <!-- If there is no image -->
+                <div id="add-image-container">
+                    <p class="text-white">Add an Image</p>
+                    <input type="file" id="upload-image" class="w-full p-2 mt-2 bg-gray-700 text-white rounded">
+                </div>
+
+                <!-- if there is an image -->
+                <button onclick="toggleImageOptions()" id="edit-image-btn"
+                    class="px-3 py-2 bg-gray-600 text-white rounded">
+                    Edit Image
+                </button>
+                <div id="image-options" class="hidden mt-2">
+                    <div id="add-image-container">
+                        <p class="text-white">Replace the Image</p>
+                        <input type="file" id="edit-image" class="w-full p-2 bg-gray-700 text-white rounded"
+                            onchange="handleImageUpload()">
+                    </div>
+                    <label class="text-white flex items-center mt-2">
+                        <input type="checkbox" id="remove-image" onclick="handleRemoveImage()"> Remove Image
+                    </label>
+                </div>
+
+                <div class="flex justify-end gap-2 mt-4">
+                    <button onclick="openConfirmEditModal()"
+                        class="px-4 py-2 bg-blue-500 text-white rounded-lg">Save</button>
+                    <button onclick="closeEditModal()"
+                        class="px-4 py-2 bg-gray-500 text-white rounded-lg">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <div id="confirmEditModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h2 class="text-xl text-white font-semibold">Confirm Edit</h2>
+                <p class="text-gray-300">Are you sure you want to save these changes?</p>
+                <div class="flex justify-end gap-2 mt-4">
+                    <button onclick="confirmSaveEdit()" class="px-4 py-2 bg-green-500 text-white rounded">Yes</button>
+                    <button onclick="closeConfirmEditModal()"
+                        class="px-4 py-2 bg-gray-500 text-white rounded">No</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="confirmDeleteModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h2 class="text-xl text-white font-semibold">Confirm Delete</h2>
+                <p class="text-gray-300">Are you sure you want to delete this post? This action cannot be undone.</p>
+                <div class="flex justify-end gap-2 mt-4">
+                    <button onclick="saveDelete()" class="px-4 py-2 bg-red-500 text-white rounded">Yes</button>
+                    <button onclick="closeConfirmDeleteModal()"
+                        class="px-4 py-2 bg-gray-500 text-white rounded">No</button>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

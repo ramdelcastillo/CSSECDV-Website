@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Post</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-900 border-gray-200">
+  <%- include('partials/navbar-logged-on', { page: 'make-posts' , user: user }) %>
+
+  <div class="grid content-center grid h-56 grid-cols-3 content-start gap-4"></div>
+
+  <form id="postForm" class="max-w-sm mx-auto" enctype="multipart/form-data">
+    <h2 class="text-white text-2xl font-semibold text-center mb-6">Create a New Post</h2>
+  
+    <div class="mb-5">
+      <label for="title" class="block mb-2 text-sm font-medium text-white">Title</label>
+      <input type="text" id="title" name="title"
+        class="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-gray-400"
+         />
+    </div>
+  
+    <div class="mb-5">
+      <label for="content" class="block mb-2 text-sm font-medium text-white">Content</label>
+      <textarea id="content" name="content" rows="5"
+        class="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-gray-400"
+        ></textarea>
+    </div>
+  
+    <div class="mb-5">
+      <label for="post_image" class="block mb-2 text-sm font-medium text-white">Attach Image (.png or .jpg only)</label>
+      <input type="file" id="post_image" name="post_image"
+        class="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-gray-400"
+        accept="image/png, image/jpeg" />
+    </div>
+  
+    <div class="mb-5">
+      <label for="commentLimit" class="block mb-2 text-sm font-medium text-white">
+        Comment Limit (Leave blank for no limit)
+      </label>
+      <input type="text" id="commentLimit" name="commentLimit"
+        class="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-gray-400"
+        placeholder="Enter max number of comments" />
+    </div>
+
+      <button type="submit"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
+    </form>
+
+    <script>
+       const username = "<%= user.username%>"; 
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("postForm");
+
+        form.addEventListener("submit", async function (event) {
+          event.preventDefault(); 
+
+          const formData = new FormData(form); 
+
+          try {
+            const response = await fetch("/make-posts", {
+              method: "POST",
+              body: formData, 
+            });
+
+            const result = await response.json().catch(() => null); 
+
+            if (response.ok) {
+              alert(`Post created successfully by ${username}`); 
+              window.location.href = "/home-posts"; 
+            } else {
+              alert(result?.message || "Failed to create post."); 
+            }
+          } catch (error) {
+            console.error("Error submitting post:", error);
+            alert("An error occurred while submitting the post.");
+          }
+        });
+      });
+    </script>
+</body>
+
+</html>
