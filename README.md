@@ -2,7 +2,7 @@
 
 ## Setting up the Application
 1. Install Node.js LTS [here](https://nodejs.org/en/download)
-2. Clone the repo by running `git clone https://github.com/richjpex/CSSECDV-Website.git`
+2. Clone the repo by running `git clone https://github.com/ramdelcastillo/CSSECDV-Website`
 3. Navigate to the folder `cd CSSECDV-Website`
 4. Run `npm install` to install all the dependencies
 5. Create a `.env` file and place these
