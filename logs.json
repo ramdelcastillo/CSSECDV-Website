@@ -1,0 +1,1468 @@
+[
+  {
+    "timestamp": "3/13/2025, 7:42:49 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:42:50 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:42:54 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "delcapsss",
+    "newUsername": "delcapsss"
+  },
+  {
+    "timestamp": "3/13/2025, 7:42:55 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:43:03 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "delcapsss",
+    "newUsername": "delcapsss"
+  },
+  {
+    "timestamp": "3/13/2025, 7:43:03 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:43:09 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "aaaaa",
+    "newUsername": "aaaaa"
+  },
+  {
+    "timestamp": "3/13/2025, 7:43:09 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:43:11 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:44:12 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "delcapsss",
+    "newUsername": "delcapsss"
+  },
+  {
+    "timestamp": "3/13/2025, 7:44:12 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:44:28 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "delcapsss",
+    "newUsername": "delcapsss"
+  },
+  {
+    "timestamp": "3/13/2025, 7:44:29 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:47:31 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "delcapsss",
+    "newUsername": "delcapssss"
+  },
+  {
+    "timestamp": "3/13/2025, 7:47:31 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:47:47 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:47:49 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:48:01 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:48:03 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:48:20 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:48:21 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:50:59 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:51:56 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "aaaaa",
+    "newUsername": "aaaaa"
+  },
+  {
+    "timestamp": "3/13/2025, 7:51:56 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:55:44 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "delcapssss",
+    "newUsername": "delcap"
+  },
+  {
+    "timestamp": "3/13/2025, 7:55:44 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:56:49 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 7:56:49 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "JohnDoe222222",
+    "newUsername": "JohnDoe2222222"
+  },
+  {
+    "timestamp": "3/13/2025, 7:59:44 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "aaaaa",
+    "newUsername": "aaaaa"
+  },
+  {
+    "timestamp": "3/13/2025, 7:59:44 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:05:38 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "delcap",
+    "newUsername": "delcapd"
+  },
+  {
+    "timestamp": "3/13/2025, 8:05:39 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:06:06 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "JohnDoeeeee",
+    "newUsername": "JohnDoeeeeee"
+  },
+  {
+    "timestamp": "3/13/2025, 8:06:06 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:08:10 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "JohnDoeeeeee",
+    "newUsername": "JohnDoeeeeee"
+  },
+  {
+    "timestamp": "3/13/2025, 8:08:10 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:08:12 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:08:20 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "aaaaa",
+    "newUsername": "aaaaaA"
+  },
+  {
+    "timestamp": "3/13/2025, 8:08:20 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:08:21 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:10:55 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:11:47 PM",
+    "username": "Guest",
+    "route": "/admin-panel/add-user",
+    "action": "User Registration - Validation Failed",
+    "status": "Failed",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Confirm password is required."
+  },
+  {
+    "timestamp": "3/13/2025, 8:11:51 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/add-user",
+    "action": "Register User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "newUser": "del"
+  },
+  {
+    "timestamp": "3/13/2025, 8:21:21 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "oldUsername": "del",
+    "newUsername": "del"
+  },
+  {
+    "timestamp": "3/13/2025, 8:21:22 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:22:31 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:22:31 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:27:22 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:27:24 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:27:41 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:30:34 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:30:41 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:46:22 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:51:31 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 8:51:37 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:32:35 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/ban-user",
+    "action": "Ban User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:35:26 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/ban-user",
+    "action": "Ban User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:35:31 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/ban-user",
+    "action": "Ban User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:37:30 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/ban-user",
+    "action": "Ban User from Admin",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:38:53 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/ban-user",
+    "action": "Ban User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:39:18 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:39:30 PM",
+    "username": "del",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Unauthorized posting",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:40:02 PM",
+    "username": "del",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Unauthorized posting",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:40:15 PM",
+    "username": "del",
+    "role": "user",
+    "route": "/posts/third_post/post-comment",
+    "action": "Post Comment",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:40:17 PM",
+    "username": "del",
+    "role": "user",
+    "route": "/posts/third_post/post-comment",
+    "action": "Post Comment",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:40:45 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:40:53 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/ban-user",
+    "action": "Ban User from Admin",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:41:08 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:41:13 PM",
+    "username": "delcapd",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:41:21 PM",
+    "username": "delcapd",
+    "role": "user",
+    "route": "/posts/second_post/post-comment",
+    "action": "Post Comment",
+    "status": "Unauthorized commenting",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 9:43:13 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 10:04:38 PM",
+    "username": "Admin1",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Email is required."
+  },
+  {
+    "timestamp": "3/13/2025, 10:04:41 PM",
+    "username": "Admin1",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Email is required. | Username is required."
+  },
+  {
+    "timestamp": "3/13/2025, 10:04:43 PM",
+    "username": "Admin1",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Email is required. | Username is required. | Full name is required."
+  },
+  {
+    "timestamp": "3/13/2025, 10:04:45 PM",
+    "username": "Admin1",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Email is required. | Username is required. | Full name is required. | Phone number is required."
+  },
+  {
+    "timestamp": "3/13/2025, 10:05:04 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/13/2025, 10:11:49 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/ban-user",
+    "action": "Ban User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:18:23 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:19:15 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:25:37 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:28:06 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:31:25 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:31:48 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:32:49 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:33:08 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:35:18 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:37:43 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:42:49 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:46:04 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:47:30 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:51:22 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:51:43 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:52:15 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:52:29 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:52:43 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:53:01 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:56:10 AM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:56:51 AM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:57:33 AM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:57:50 AM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:58:09 AM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:58:30 AM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 11:59:55 AM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 12:05:06 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 1:34:17 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 1:34:24 PM",
+    "username": "Aldddd",
+    "role": "user",
+    "route": "/profile/Aldddd/edit-phone",
+    "action": "Update Phone Number",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 1:34:42 PM",
+    "username": "Aldddd",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Unauthorized posting",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 1:34:44 PM",
+    "username": "Aldddd",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Unauthorized posting",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 1:59:13 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 1:59:18 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 1:59:32 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 1:59:47 PM",
+    "username": "Admin1",
+    "role": "admin",
+    "route": "/admin-panel/ban-user",
+    "action": "Ban User from Admin",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:00:03 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:01:46 PM",
+    "username": "JohnDoeeeeee",
+    "role": "user",
+    "route": "/posts/first_post/edit",
+    "action": "Edit Post",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:01:52 PM",
+    "username": "JohnDoeeeeee",
+    "role": "user",
+    "route": "/posts/first_a/post-comment",
+    "action": "Post Comment",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:01:54 PM",
+    "username": "JohnDoeeeeee",
+    "role": "user",
+    "route": "/posts/first_a/post-comment",
+    "action": "Post Comment",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:02:40 PM",
+    "username": "JohnDoeeeeee",
+    "role": "user",
+    "route": "/posts/first_a/edit-comment",
+    "action": "Edit Comment",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:02:44 PM",
+    "username": "JohnDoeeeeee",
+    "role": "user",
+    "route": "/posts/first_a/edit-comment",
+    "action": "Create Comment - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Content is required. | Comment must be at least 1 character."
+  },
+  {
+    "timestamp": "3/14/2025, 2:02:52 PM",
+    "username": "JohnDoeeeeee",
+    "role": "user",
+    "route": "/posts/first_a/delete-comment",
+    "action": "Edit Comment",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:03:13 PM",
+    "username": "JohnDoeeeeee",
+    "role": "user",
+    "route": "/profile/JohnDoeeeeee/edit-phone",
+    "action": "Update Phone Number",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:09:02 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:09:26 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:26:19 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:40:00 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:40:15 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:43:13 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/posts/a/edit",
+    "action": "Edit Post",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:49:05 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:49:17 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/profile/JohnDoe/edit-phone",
+    "action": "Update Phone Number - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Please provide a valid phone number."
+  },
+  {
+    "timestamp": "3/14/2025, 2:49:28 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/profile/JohnDoe/edit-phone",
+    "action": "Update Phone Number",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:50:03 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Content is required."
+  },
+  {
+    "timestamp": "3/14/2025, 2:50:36 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:51:48 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:52:21 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/posts/riptampampgtalert1iptampampgt/post-comment",
+    "action": "Create Comment - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Comment must be at least 1 character."
+  },
+  {
+    "timestamp": "3/14/2025, 2:52:26 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/posts/riptampampgtalert1iptampampgt/post-comment",
+    "action": "Create Comment - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Comment must be at least 1 character."
+  },
+  {
+    "timestamp": "3/14/2025, 2:53:06 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/posts/riptampampgtalert1iptampampgt/post-comment",
+    "action": "Post Comment",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:54:04 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/posts/riptampampgtalert1iptampampgt/edit",
+    "action": "Edit Post",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:54:47 PM",
+    "username": "Guest",
+    "route": "/auth/fdf1b191a3e96b81f5fa5761fa57379c",
+    "action": "Admin Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:55:13 PM",
+    "username": "Admin1",
+    "route": "/admin-panel/edit-user",
+    "action": "Edit User - Validation Failed",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "errorDetails": "Invalid username. | Please provide a valid phone number."
+  },
+  {
+    "timestamp": "3/14/2025, 2:55:52 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:57:55 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 2:58:10 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Failed",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 3:25:06 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 3:25:20 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/posts/riptampampgtalert1iptampampgt/edit",
+    "action": "Edit Post",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 3:29:12 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 3:29:26 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Success",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "3/14/2025, 3:30:51 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/make-posts",
+    "action": "Create Post",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "8/18/2025, 11:19:39 PM",
+    "username": "Guest",
+    "route": "/auth/login",
+    "action": "Login Attempt",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  },
+  {
+    "timestamp": "8/18/2025, 11:20:00 PM",
+    "username": "JohnDoe",
+    "role": "user",
+    "route": "/posts/first_post/edit",
+    "action": "Edit Post",
+    "status": "Success",
+    "ip": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+  }
+]

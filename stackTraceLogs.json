@@ -1,0 +1,185 @@
+[
+  {
+    "timestamp": "3/13/2025, 5:14:40 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:50:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:14:50 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:50:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:17:18 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:50:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:33:36 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:112:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:33:46 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:112:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:35:53 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:112:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:37:46 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:50:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:38:23 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:50:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:38:28 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:50:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:39:23 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:112:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 5:39:31 AM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:112:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 6:12:28 PM",
+    "stack": [
+      "error: duplicate key value violates unique constraint \"users_email_key\"",
+      "at C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\pg-pool\\index.js:45:11",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+      "at async queryDatabase (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/db.js:17:17)",
+      "at async createUser (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/models/userModel.js:17:20)",
+      "at async registerUserFromAdmin (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/controllers/userController.js:79:23)"
+    ],
+    "message": "duplicate key value violates unique constraint \"users_email_key\""
+  },
+  {
+    "timestamp": "3/13/2025, 6:13:17 PM",
+    "stack": [
+      "error: duplicate key value violates unique constraint \"users_username_key\"",
+      "at C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\pg-pool\\index.js:45:11",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+      "at async queryDatabase (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/db.js:17:17)",
+      "at async createUser (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/models/userModel.js:17:20)",
+      "at async registerUserFromAdmin (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/controllers/userController.js:79:23)"
+    ],
+    "message": "duplicate key value violates unique constraint \"users_username_key\""
+  },
+  {
+    "timestamp": "3/13/2025, 6:38:32 PM",
+    "stack": [
+      "error: duplicate key value violates unique constraint \"users_email_key\"",
+      "at C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\pg-pool\\index.js:45:11",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+      "at async queryDatabase (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/db.js:17:17)",
+      "at async createUser (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/models/userModel.js:17:20)",
+      "at async registerUserFromAdmin (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/controllers/userController.js:79:23)"
+    ],
+    "message": "duplicate key value violates unique constraint \"users_email_key\""
+  },
+  {
+    "timestamp": "3/13/2025, 8:30:41 PM",
+    "stack": [
+      "error: duplicate key value violates unique constraint \"users_email_key\"",
+      "at C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\pg-pool\\index.js:45:11",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+      "at async queryDatabase (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/db.js:17:17)",
+      "at async updateUserDetails (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/models/userModel.js:96:20)",
+      "at async editUserFromAdmin (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/controllers/userController.js:75:27)"
+    ],
+    "message": "duplicate key value violates unique constraint \"users_email_key\""
+  },
+  {
+    "timestamp": "3/13/2025, 8:51:31 PM",
+    "stack": [
+      "Error: Invalid credentials",
+      "at file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/routes/authRouter.js:112:19",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "Invalid credentials"
+  },
+  {
+    "timestamp": "3/13/2025, 9:39:30 PM",
+    "stack": [
+      "Error: You are banned from posting.",
+      "at makePost (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/controllers/postController.js:44:23)",
+      "at Layer.handle [as handle_request] (C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "at next (C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\express\\lib\\router\\route.js:149:13)",
+      "at validatePost (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/middleware/postMiddleware.js:61:7)",
+      "at Layer.handle [as handle_request] (C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\express\\lib\\router\\layer.js:95:5)",
+      "at next (C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\express\\lib\\router\\route.js:149:13)",
+      "at middleware (C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    ],
+    "message": "You are banned from posting."
+  },
+  {
+    "timestamp": "3/14/2025, 2:58:10 PM",
+    "stack": [
+      "error: value \"2312932103812903812038128301812084128481024821\" is out of range for type integer",
+      "at C:\\Users\\delca\\OneDrive\\Desktop\\Term 10\\CSSECDV\\DEMO\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\Milestone 1_Del Castillo, Borromeo, Pecson_S15\\CSSECDV-Website\\node_modules\\pg-pool\\index.js:45:11",
+      "at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+      "at async queryDatabase (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/db.js:17:17)",
+      "at async createPost (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/models/postModel.js:36:24)",
+      "at async makePost (file:///C:/Users/delca/OneDrive/Desktop/Term%2010/CSSECDV/DEMO/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/Milestone%201_Del%20Castillo,%20Borromeo,%20Pecson_S15/CSSECDV-Website/controllers/postController.js:67:24)"
+    ],
+    "message": "value \"2312932103812903812038128301812084128481024821\" is out of range for type integer"
+  }
+]
