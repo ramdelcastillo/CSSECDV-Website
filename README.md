@@ -1,5 +1,8 @@
 # CSSECDV-Website
-Devs: Del Castillo, Jose Mari; Borromeo, Matthew; Pecson, Richard <br>
+Devs: <br>
+Del Castillo, Jose Mari<br>
+Borromeo, Matthew<br>
+Pecson, Richard <br><br>
 Submission Date: March 14, 2025
 
 ## Setting up the Application
