@@ -18,7 +18,7 @@ import fs from "fs";
 // Initialize
 dotenv.config();
 const app = express();
-const port = process.env.SERVER_PORT;
+const port = process.env.PORT;
 
 // Setup EJS
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
