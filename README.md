@@ -1,5 +1,6 @@
 # CSSECDV-Website
-Devs: Del Castillo, Jose Mari; Borromeo, Matthew; Pecson, Richard
+Devs: Del Castillo, Jose Mari; Borromeo, Matthew; Pecson, Richard <br>
+Submission Date: March 14, 2025
 
 ## Setting up the Application
 1. Install Node.js LTS [here](https://nodejs.org/en/download)
